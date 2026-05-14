@@ -1,0 +1,61 @@
+/* Diary-style visual tweaks for Fluid */
+
+/* Softer, rounded content boards */
+.index-card,
+.post-content,
+.post,
+.board,
+.archive-content,
+.category-content,
+.tag-content {
+  border-radius: 16px;
+  border: 1px solid rgba(168, 85, 247, 0.08);
+}
+
+/* Subtle shadow for cards without being heavy */
+.index-card,
+.post,
+.board {
+  box-shadow: 0 8px 24px rgba(91, 59, 112, 0.12);
+}
+
+/* Slightly round buttons for a friendlier look */
+.btn,
+button,
+.pagination .page-link {
+  border-radius: 999px;
+}
+
+/* Make primary buttons match purple accent */
+.btn-primary {
+  background-color: #a855f7;
+  border-color: #a855f7;
+}
+
+.btn-primary:hover,
+.btn-primary:focus {
+  background-color: #9333ea;
+  border-color: #9333ea;
+}
+
+/* Improve Chinese diary readability */
+.markdown-body,
+.post-content {
+  line-height: 1.9;
+}
+
+/* Improve hero text readability over photo banners */
+#banner .page-header .banner-text,
+#banner .page-header .banner-text .h2,
+#banner .page-header .banner-text .h3,
+#banner .page-header .banner-text .text-center {
+  text-shadow: 0 3px 14px rgba(0, 0, 0, 0.42);
+}
+
+/* Keep dark mode shadows gentle */
+[data-default-color-scheme="dark"] .index-card,
+[data-default-color-scheme="dark"] .post,
+[data-default-color-scheme="dark"] .board {
+  box-shadow: 0 10px 28px rgba(0, 0, 0, 0.32);
+  border-color: rgba(192, 132, 252, 0.16);
+}

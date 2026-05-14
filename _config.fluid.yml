@@ -1,0 +1,74 @@
+# Fluid theme override config
+# Full reference: node_modules/hexo-theme-fluid/_config.yml
+
+navbar:
+  blog_title: ""
+  menu:
+    - { key: "home", link: "/", icon: "iconfont icon-home-fill" }
+    - { key: "archive", link: "/archives/", icon: "iconfont icon-archive-fill" }
+    - { key: "tag", link: "/tags/", icon: "iconfont icon-tags-fill" }
+
+index:
+  banner_img: /img/banner.jpg
+  banner_mask_alpha: 0.38
+  slogan:
+    enable: true
+    text: "我会自己写日记"
+
+fun_features:
+  typing:
+    enable: true
+    typeSpeed: 65
+    cursorChar: "_"
+    loop: false
+
+dark_mode:
+  enable: true
+  default: auto
+
+font:
+  font_size: 17px
+  letter_spacing: 0.02em
+
+color:
+  body_bg_color: "#fbf7fc"
+  body_bg_color_dark: "#171723"
+  navbar_bg_color: "#5b3b70"
+  navbar_bg_color_dark: "#2a2138"
+  navbar_text_color: "#fff7ff"
+  navbar_text_color_dark: "#eadff0"
+  subtitle_color: "#fff7ff"
+  subtitle_color_dark: "#eadff0"
+  text_color: "#3f3650"
+  text_color_dark: "#d4c7df"
+  board_color: "#ffffff"
+  board_color_dark: "#241f30"
+  post_link_color: "#a855f7"
+  post_link_color_dark: "#c084fc"
+
+custom_css:
+  - /css/custom.css
+
+post:
+  meta:
+    author:
+      enable: false
+    wordcount:
+      enable: false
+    min2read:
+      enable: false
+  updated:
+    enable: false
+  toc:
+    enable: false
+  category_bar:
+    enable: false
+
+archive:
+  banner_img: /img/default.png
+
+tag:
+  banner_img: /img/default.png
+
+category:
+  banner_img: /img/default.png
